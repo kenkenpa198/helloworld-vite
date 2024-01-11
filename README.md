@@ -21,7 +21,6 @@ Done. Now run:
 ### 1.2. npm install && npm run dev
 
 ```shell
-
 $ cd practice-vite
 $ npm install
 
@@ -31,6 +30,7 @@ added 11 packages, and audited 12 packages in 1s
   run `npm fund` for details
 
 found 0 vulnerabilities
+
 $ npm run dev
 
 > practice-vite@0.0.0 dev
@@ -58,6 +58,15 @@ dist/index.html                 0.45 kB │ gzip: 0.29 kB
 dist/assets/index-X4m0RMh6.css  1.21 kB │ gzip: 0.63 kB
 dist/assets/index-xf4JlvXi.js   2.59 kB │ gzip: 1.38 kB
 ✓ built in 87ms
+
+$ npm run preview
+
+> practice-vite@0.0.0 preview
+> vite preview
+
+  ➜  Local:   http://localhost:4173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
 ```
 
 ## 2. Deploy by GitHub Pages
