@@ -82,9 +82,7 @@ README 冒頭の公開ページをデプロイするまでのメモ。
     touch vite.config.js
     ```
 
-    参考) [Vite の設定 | Vite](https://ja.vitejs.dev/config/)
-
-2. 下記の通り記述する。
+2. ルートディレクトリの設定を記述する。GitHub Pages の場合は `'/<REPO>/'` となる。
 
     ```js
     export default {
@@ -92,16 +90,12 @@ README 冒頭の公開ページをデプロイするまでのメモ。
     }
     ```
 
-    参考) [共通オプション | Vite](https://ja.vitejs.dev/config/shared-options.html)
-
 3. GitHub Actions の設定ファイルを作成する。
 
     ```shell
     mkdir -p .github/workflows
     touch .github/workflows/main.yml
     ```
-
-    参考) [kenkenpa198/practice-github-actions](https://github.com/kenkenpa198/practice-github-actions)
 
 4. `main.yml` へ [静的サイトのデプロイ | Vite](https://ja.vitejs.dev/guide/static-deploy.html#github-pages) > [GitHub Pages](https://ja.vitejs.dev/guide/static-deploy.html#github-pages) 上のサンプルコードを記述する。
 
@@ -123,3 +117,4 @@ README 冒頭の公開ページをデプロイするまでのメモ。
     - [静的サイトのデプロイ | Vite](https://ja.vitejs.dev/guide/static-deploy.html)
     - [Vite の設定 | Vite](https://ja.vitejs.dev/config/)
     - [共通オプション | Vite](https://ja.vitejs.dev/config/shared-options.html)
+- [kenkenpa198/practice-github-actions](https://github.com/kenkenpa198/practice-github-actions)
