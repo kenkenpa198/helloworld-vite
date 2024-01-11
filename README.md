@@ -82,7 +82,9 @@ README 冒頭の公開ページをデプロイするまでのメモ。
     touch vite.config.js
     ```
 
-2. ルートディレクトリの設定を記述する。GitHub リポジトリが `https://github.com/<USERNAME>/<REPO>` の場合 `'/<REPO>/'` を記述する。
+2. ルートディレクトリの設定を記述する。
+
+    GitHub リポジトリが `https://github.com/<USERNAME>/<REPO>` の場合は `'/<REPO>/'` を記述する。
 
     ```js
     export default {
