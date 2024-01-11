@@ -90,6 +90,8 @@ dist/assets/index-xf4JlvXi.js   2.59 kB │ gzip: 1.38 kB
     touch .github/workflows/main.yml
     ```
 
+    参考) [kenkenpa198/practice-github-actions](https://github.com/kenkenpa198/practice-github-actions)
+
 4. `main.yml` へ [静的サイトのデプロイ | Vite](https://ja.vitejs.dev/guide/static-deploy.html#github-pages) > [GitHub Pages](https://ja.vitejs.dev/guide/static-deploy.html#github-pages) 上のサンプルコードを記述する。
 
     ```yml
