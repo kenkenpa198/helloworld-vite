@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# practice-vite
+# Practice Vite
 
 [https://kenkenpa198.github.io/practice-vite/](https://kenkenpa198.github.io/practice-vite/)
 
