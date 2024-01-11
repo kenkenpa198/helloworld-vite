@@ -1,8 +1,9 @@
+<!-- omit in toc -->
 # practice-vite
 
-## Commands
+## 1. Commands
 
-### npm create
+### 1.1. npm create
 
 ```shell
 $ npm create vite@latest
@@ -17,7 +18,7 @@ Done. Now run:
   npm run dev
 ```
 
-### npm install && npm run dev
+### 1.2. npm install && npm run dev
 
 ```shell
 
@@ -43,7 +44,7 @@ $ npm run dev
   ➜  press h + enter to show help
 ```
 
-## npm run build && npm run preview
+### 1.3. npm run build && npm run preview
 
 ```shell
 $ npm run build
@@ -59,7 +60,50 @@ dist/assets/index-xf4JlvXi.js   2.59 kB │ gzip: 1.38 kB
 ✓ built in 87ms
 ```
 
-## References
+## 2. Deploy by GitHub Pages
+
+公開ページ: [https://kenkenpa198.github.io/practice-vite/](https://kenkenpa198.github.io/practice-vite/)
+
+1. プロジェクトルートへ `vite.config.js` を作成する。
+
+    ```shell
+    cd practice-vite
+    touch vite.config.js
+    ```
+
+    参考) [Vite の設定 | Vite](https://ja.vitejs.dev/config/)
+
+2. 下記の通り記述する。
+
+    ```js
+    export default {
+        base: '/practice-vite/',
+    }
+    ```
+
+    参考) [共通オプション | Vite](https://ja.vitejs.dev/config/shared-options.html)
+
+3. GitHub Actions の設定ファイルを作成する。
+
+    ```shell
+    mkdir -p .github/workflows
+    touch .github/workflows/main.yml
+    ```
+
+4. `main.yml` へ [静的サイトのデプロイ | Vite](https://ja.vitejs.dev/guide/static-deploy.html#github-pages) > [GitHub Pages](https://ja.vitejs.dev/guide/static-deploy.html#github-pages) 上のサンプルコードを記述する。
+
+    ```yml
+    # 静的コンテンツを GitHub Pages にデプロイするためのシンプルなワークフロー
+    name: Deploy static content to Pages
+    ...
+    ```
+
+5. GitHub リポジトリページ > `Settings` > `Pages` へ遷移する。
+6. `Build and deployment` > `Source` のプルダウンメニューから `GitHub Actions` を選択する。
+7. プッシュする。
+8. main ブランチの状態でビルド ～ デプロイが行われたことを確認する。
+
+## 3. References
 
 - [改訂3版JavaScript本格入門 ～モダンスタイルによる基礎から現場での応用まで：書籍案内｜技術評論社](https://gihyo.jp/book/2023/978-4-297-13288-0)
 - [Vite | 次世代フロントエンドツール](https://ja.vitejs.dev/)
