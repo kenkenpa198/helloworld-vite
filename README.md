@@ -73,7 +73,7 @@ $ npm run preview
 
 ## 2. Deploy by GitHub Pages
 
-README 冒頭の公開ページをデプロイするまでのメモ。
+README 冒頭の公開ページを GitHub Pages でデプロイするまでのメモ。
 
 1. プロジェクトルートへ `vite.config.js` を作成する。
 
