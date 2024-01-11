@@ -110,7 +110,7 @@ README 冒頭の公開ページをデプロイするまでのメモ。
 5. GitHub リポジトリページ > `Settings` > `Pages` へ遷移する。
 6. `Build and deployment` > `Source` のプルダウンメニューから `GitHub Actions` を選択する。
 7. プッシュする。
-8. main ブランチの状態でビルド ～ デプロイが行われたことを確認する。
+8. main ブランチを元に、npm パッケージのインストール ～ ビルド ～ デプロイが行われたことを確認する。
 
 ## 3. References
 
