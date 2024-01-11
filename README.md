@@ -1,6 +1,8 @@
 <!-- omit in toc -->
 # practice-vite
 
+[https://kenkenpa198.github.io/practice-vite/](https://kenkenpa198.github.io/practice-vite/)
+
 ## 1. Commands
 
 ### 1.1. npm create
@@ -71,7 +73,7 @@ $ npm run preview
 
 ## 2. Deploy by GitHub Pages
 
-公開ページ: [https://kenkenpa198.github.io/practice-vite/](https://kenkenpa198.github.io/practice-vite/)
+README 冒頭の公開ページをデプロイするまでのメモ。
 
 1. プロジェクトルートへ `vite.config.js` を作成する。
 
