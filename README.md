@@ -92,7 +92,7 @@ README 冒頭の公開ページをデプロイするまでのメモ。
     }
     ```
 
-3. GitHub Actions の設定ファイルを作成する。
+3. GitHub Actions の YAML ファイルを作成する。
 
     ```shell
     mkdir -p .github/workflows
