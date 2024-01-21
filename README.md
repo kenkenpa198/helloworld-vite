@@ -1,7 +1,7 @@
 <!-- omit in toc -->
-# Practice Vite
+# Hello World - Vite
 
-[https://kenkenpa198.github.io/practice-vite/](https://kenkenpa198.github.io/practice-vite/)
+[https://kenkenpa198.github.io/helloworld-vite/](https://kenkenpa198.github.io/helloworld-vite/)
 
 ## 1. Commands
 
@@ -88,7 +88,7 @@ README 冒頭の公開ページを GitHub Pages でデプロイするまでの�
 
     ```js
     export default {
-        base: '/practice-vite/',
+        base: '/helloworld-vite/',
     }
     ```
 

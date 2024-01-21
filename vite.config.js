@@ -1,3 +1,3 @@
 export default {
-    base: '/practice-vite/',
+    base: '/helloworld-vite/',
   }
